@@ -1,3 +1,5 @@
+"use client";
+import React from 'react';
 import { Nunito } from 'next/font/google'
 import { auth } from '@/app/libs/firebaseHelpers';
 import { onAuthStateChanged } from 'firebase/auth';
